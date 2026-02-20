@@ -9,3 +9,5 @@ My code currently starts by defining a function which is my random number genera
 
 What areas would I like guidance on?
 
+I would like some guidance on player classes, and how I can make players in my game. I'm trying to be able to make a game where it determines the number of players, who of those players is the dealer, and a constant game where there isnt a break for everyone's turn. This is what I will need some guidance on how to do it.
+
