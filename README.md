@@ -5,25 +5,7 @@ I want my code to create a game of 21 with players defined as a dealer and how e
 
 What does my code currently do?
 
-My code currently starts by defining a function which is my random number generator 1-12. It then asks for player's input on what is your name. It then repsonds back by saying hello (name). It then creates a variable with my function I created earlier, and it prints that function as a integer. Then, I created a while loop for when my random number is less than 21. Everytime it is, I ask whether the player wants to stay or go.
+My code currently starts by defining a function which is my random number generator 1-12. It then asks for player's input on what is your name. It then repsonds back by saying hello (name). It then creates a variable with my function I created earlier, and it prints that function as a integer. Then, I created a while loop for when my random number is less than 21. Everytime it is, I ask whether the player wants to stay or go. If he goes, it will add on a random generated nuber 1-12 to the base number that was printed. It then keeps going until someone says stay instead of go, the number = 21 in which you win! will be said, or the number is over 21 in which it will say "You went over 21. You Lose!. It then stops the game with a break statement after that is done. 
 
+What areas would I like guidance on?
 
-MY CODE:
-import random
-def my_random_number():
-    return random.randint(1,12)
-player = input("Your name? ")
-print("Hello, "+player)
-rando = my_random_number()
-print(my_random_number())
-while my_random_number() < 21: 
-    x = input("Do you want to stay or go? ")
-    if x == "go":
-        rando += random.randint(1,12)
-        print(rando)
-        if rando == 21:
-            print("You Win!")
-            break
-        if rando > 21:
-            print("You Went Over 21 You Lose!")
-            break
