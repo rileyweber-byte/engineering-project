@@ -30,14 +30,14 @@ while True:
         if rando == 21:
             print("You Win!")
             break
-    if rando > 21:
-        print("You Went Over 21 You Lose!")
-        break
-    print(end_of_game)
-    if end_of_game == "Yes":  
-        continue
-    if end_of_game == "No":
-        print("Ok! Have an amzing day!")
+        if rando > 21:
+            print("You Went Over 21 You Lose!")
+            print(end_of_game)
+            if end_of_game == "Yes":  
+                    continue
+            if end_of_game == "No":
+                    print("Ok! Have an amzing day!")
+                    break
     print("Now it is "+dealer+"s turn")
     print(dealerscard)
     while True:
