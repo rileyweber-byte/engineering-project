@@ -11,3 +11,14 @@ What areas would I like guidance on?
 
 I would like some guidance on player classes, and how I can make players in my game. I'm trying to be able to make a game where it determines the number of players, who of those players is the dealer, and a constant game where there isnt a break for everyone's turn. This is what I will need some guidance on how to do it.
 
+Have you changed what you want your code to do?
+
+I have not changed what I want my code to do. Its purpose has stayed the same throughout the whole project. I've always wanted to create a game of 21 with multiple turns by multiple people who use input to identify themselves. I've always wanted to be able to end the game as well on command.
+
+What have you added to your code?
+
+I have added a lot to my code since the last checkpoint. I now have lots of functions which are called and used in my code. I now have added a dealer and their turn to the code as well which is basically the same as the player's code, but it has different if statements involving and. I also have added input which helps me identify who the players are and if you want to play again.
+
+What areas would I like guidance on?
+
+I dont really have an area I would like guidance on at this moment. I'm kind of just seeing what I can do on my own by messing around with things. 
