@@ -16,7 +16,6 @@ while True:
     dealer = input("Dealer's name? ")
     print("Hello, "+dealer)
     rando = my_random_number()
-    end_of_game = end_of_game_question()
     dealerscard = dealers_turn()
     print("First it is " +player+ "s turn")
     print(rando)
@@ -32,12 +31,14 @@ while True:
             break
         if rando > 21:
             print("You Went Over 21 You Lose!")
-            print(end_of_game)
-            if end_of_game == "Yes":  
-                    continue
-            if end_of_game == "No":
-                    print("Ok! Have an amzing day!")
-                    break
+            break
+    if rando > 21 or rando == 21:
+        end_of_game = end_of_game_question()
+        if end_of_game == "Yes":
+            continue
+        if end_of_game == "No":
+            print("Ok! Have an amzing day!")
+            break
     print("Now it is "+dealer+"s turn")
     print(dealerscard)
     while True:
@@ -54,9 +55,10 @@ while True:
         if dealerscard < 21 and dealerscard > rando:
             print("Dealer Wins!")
             break
-    print(end_of_game)
+    end_of_game = end_of_game_question()
     if end_of_game == "Yes":  
         continue
     if end_of_game == "No":
         print("Ok! Have an amzing day!")
+        break
         
